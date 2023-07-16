@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.slikaVino {
+    grid-column: span 12;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    grid-template-rows: repeat(minmax(0, 12));
+    gap: 30px;
+}
+.header {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerTitle {
+    display: flex;
+    align-items: center;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    width: max-content;
+}
+/* .container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    
+} */
+.subtitle-sm {
+    color: #b3a89c;
+    font-size: 20px;
+}
+.navLogo {
+    display: flex;
+    width: 100px;
+    height: auto;
+    color: white;
+    position: fixed;
+    background-color: transparent;
+    transition: background-color 0.5s;
+    top: 10%;
+}
+.navLogo.scrolled {
+    /* Background color after scrolling */
+    background-color: #0c1d32;
+    width: fit-content;
+    z-index: 1060;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.meni {
+    overflow: hidden;
+}
+.logo {
+    margin: 20px;
+}
+a span:before {
+    content: "Close";
+    top: 0;
+    left: 50%;
+    z-index: 1060;
+}
+h1 {
+    font-size: 120px;
+    line-height: 110px;
+    font-weight: 500;
+    color: white;
+    font-family: "the seasons", italic;
+    text-align: left;
+}
+
+.back {
+    grid-column: col 5;
+    display: block;
+    position: relative;
+    top: 25%;
+    left: 10%;
+}

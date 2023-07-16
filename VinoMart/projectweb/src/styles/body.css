@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    gap: 50px;
+}
+body {
+    width: 100vw;
+}
+.opis1 {
+    grid-column: span 4;
+}
+.opis2 {
+    grid-column: span 4;
+}
+.opis3 {
+    grid-column: span 4;
+}
+.bd {
+    background-color: #0c1d32;
+    padding: 400px;
+}
+.title-broj {
+    font-size: 110px;
+    line-height: 111px;
+    color: transparent;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #9e6736;
+}
+h4 {
+    font-size: 110px;
+    line-height: 111px;
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+    font:
+        normal normal 12px/24px "halyard-display",
+        "sans-serif";
+    letter-spacing: 2.93px;
+    text-transform: uppercase;
+    font-weight: 600;
+    pointer-events: initial;
+    color: #b3a89c;
+}
+.title-nu {
+    grid-column: 5;
+    width: max-content;
+    font-size: 71px;
+    line-height: 82px;
+    letter-spacing: -1.04px;
+    color: white;
+    font-weight: normal;
+    padding-top: 4rem !important;
+    padding-bottom: 3rem;
+    margin-bottom: 1rem;
+}
+p {
+    font: normal 500 15px/55px "the-seasons";
+    color: white;
+    font-size: 1rem;
+}
+
+.text {
+    font-weight: inherit;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+    line-height: 47px;
+    letter-spacing: 0.61px;
+    text-align: center;
+}
+.under-img-txt {
+    z-index: 1060;
+    width: 1000px;
+    grid-column: 2;
+    justify-content: center;
+    align-items: center;
+}
+hr {
+    max-width: 500px;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+.slideshow {
+    margin-top: 300px;
+    grid-column: span 7;
+}
+.dog {
+    width: 1800px;
+    height: auto;
+    margin: 50px;
+}
+.sastanak {
+    font-size: 80px;
+    line-height: 111px;
+    color: transparent;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #f3f1ef;
+    
+}
+.section-dog {
+    display: block;
+    width: max-content;
+    grid-column: 4;
+}
+.section2{
+    background-color: white;
+    position: relative;
+    align-items: center !important;
+}
