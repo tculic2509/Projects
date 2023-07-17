@@ -3,6 +3,7 @@ import "../../styles/footer.css";
 import logo from "../../pictures/logo-footer.svg";
 import faceLogo from "../../pictures/face.png";
 import instaLogo from "../../pictures/insta.png";
+
 const Footer = () => {
   return (
     <footer className="footer-grid">
