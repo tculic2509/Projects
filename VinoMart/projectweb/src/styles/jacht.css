@@ -1,0 +1,24 @@
+.jacht{
+    width: 1920px;
+}
+h1{
+    grid-column: 5;
+    margin-top: 450px;
+    width: max-content;
+}
+.bd{
+    background-color: white;
+}
+.tekst{
+    display: flex;
+    text-align: center;
+    width: 90%;
+    position: relative;
+    font: normal 30px/40px "plantin", "sans-serif";
+    line-height: 64.2px;
+}
+hr{
+    max-width: 500px;
+    margin-left: 250px;
+    margin-top: 100px;
+}
