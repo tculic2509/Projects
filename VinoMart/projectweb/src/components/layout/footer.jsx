@@ -2,9 +2,15 @@ import React from "react";
 import "../../styles/footer.css";
 import logo from "../../pictures/logo-footer.svg";
 import faceLogo from "../../pictures/face.png";
-import instaLogo from "../../pictures/insta.png";
+import instaLogo from "../../pictures/insta.png"; 
+import {useNavigate} from "react-router-dom";
 
 const Footer = () => {
+
+  const navig=useNavigate();
+  function navigate(){
+    navig('/contact');
+  }
   return (
     <footer className="footer-grid">
       <div className="footer-logo">
@@ -13,7 +19,7 @@ const Footer = () => {
       <div className="links">
         <ul className="lista">
           <li>
-            <a href="https://vinumart.hr/hr/opskrba-jahti.html">
+            <a onClick={navigate}>
               OPSKRBA JAHTI
             </a>
           </li>

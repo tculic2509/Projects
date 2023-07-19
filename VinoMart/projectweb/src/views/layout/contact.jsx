@@ -3,8 +3,13 @@ import "../../styles/footer.css";
 import "../../styles/contact.css";
 import Footer from "../../components/layout/footer";
 import logo from "../../pictures/logo-footer.svg";
+import {useNavigate} from "react-router-dom";
 
 const Contact = () => {
+  const navig=useNavigate();
+  function navigate(){
+    navig('/');
+  }
   useEffect(() => {
     const handleScroll = () => {
       const navLogo = document.querySelector(".navLogo");
@@ -23,11 +28,6 @@ const Contact = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Handle form submission logic here
-  };
 
   return (
     <div className="grid">
@@ -61,7 +61,7 @@ const Contact = () => {
             <p className="p">
               Naš tim stoji Vam na raspolaganju za sve dodatne informacije.
             </p>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={navigate}>
               <input
                 type="text"
                 placeholder="Ime i prezime"

@@ -1,23 +1,23 @@
 import "./App.css";
-import Body from "./components/layout/body";
-import Header from "./components/layout/header.jsx";
-import Footer from "./components/layout/footer";
+
 import Contact from "./views/layout/contact";
+import HomePage from "./views/layout/home";
+
+import {
+  createBrowserRouter,
+  Route,
+  createRoutesFromElements,
+  RouterProvider,
+} from "react-router-dom";
+const route = createRoutesFromElements(
+  <Route>
+    <Route path="/" element={<HomePage />} />;
+    <Route path="/contact" element={<Contact />} />
+  </Route>
+);
+const router = createBrowserRouter(route);
 function App() {
-  return (
-    <div className="App">
-      {/* <header className="App-header">
-        <Header />
-      </header>
-      <body>
-        <Body />
-      </body>
-      <footer>
-        <Footer />
-      </footer> */}
-      <Contact />
-    </div>
-  );
+  return <RouterProvider router={router} />;
 }
 
 export default App;

@@ -14,7 +14,7 @@
     width: 1450px;
     top: 5%;
 }
-.grid{
+.grid {
     display: grid;
     grid-template-columns: repeat(12, minmax(0, 1fr));
     gap: 30px;
@@ -33,7 +33,6 @@ h4 {
     color: #b3a89c;
 }
 h1 {
-    color: black;
     font-size: 70px;
     color: #0c1d32;
     padding-bottom: 30px;
@@ -100,7 +99,7 @@ h1 {
     font-style: italic;
     color: #676463;
 }
-.max{
+.max {
     font-style: italic;
     display: block;
     text-align: right;
@@ -117,10 +116,9 @@ form {
     width: max-content;
 }
 .submit {
-
     padding: 20px 80px;
     background-color: #0c1d32;
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
     font-weight: bold;
 }

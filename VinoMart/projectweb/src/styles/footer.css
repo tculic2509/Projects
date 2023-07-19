@@ -31,9 +31,10 @@
   letter-spacing: 2.93px;
   text-transform: uppercase;
   font-weight: 600;
-  pointer-events: initial;
+  pointer-events:initial;
   
 }
+
 .lista2{
   display: flex;
   list-style-type: none;
