@@ -1,7 +1,10 @@
 import Body from "../../components/layout/body";
 import Header from "../../components/layout/header";
 import Footer from "../../components/layout/footer";
-import Jahta from "../layout/jacht";
+import Privatnost from "../layout/privatnost";
+import Uvjeti from "../layout/uvjeti";
+import Impresum from "../layout/impresum";
+import Contact from "./contact";
 
 function Home() {
     return (
@@ -15,7 +18,7 @@ function Home() {
         <footer>
           <Footer />
         </footer> */}
-        <Jahta />
+        <Impresum />
       </div>
     );
   }

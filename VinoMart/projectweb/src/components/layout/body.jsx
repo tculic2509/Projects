@@ -5,7 +5,7 @@ import VinskiKutak from "../vineCorner/vinskiKutak";
 const Body = () => {
   return (
     <body>
-      <div className="bd grid">
+      <div className="bdy grid">
         <div className="opis1">
           <h2 className="title-broj">+3400</h2>
           <h4>PREPOZNATIH ETIKETA</h4>

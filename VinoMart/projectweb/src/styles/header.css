@@ -52,7 +52,7 @@
     position: fixed;
     background-color: transparent;
     transition: background-color 0.5s;
-    top: 10%;
+    margin-top: -70px;
 }
 .navLogo.scrolled {
     /* Background color after scrolling */
@@ -67,16 +67,13 @@ a {
 .meni {
     overflow: hidden;
 }
-.logo {
-    margin: 20px;
-}
 a span:before {
     content: "Close";
     top: 0;
     left: 50%;
     z-index: 1060;
 }
-h1 {
+.headNaslov {
     font-size: 120px;
     line-height: 110px;
     font-weight: 500;

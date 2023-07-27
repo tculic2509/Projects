@@ -5,11 +5,14 @@ import faceLogo from "../../pictures/face.png";
 import instaLogo from "../../pictures/insta.png"; 
 import {useNavigate} from "react-router-dom";
 
+
 const Footer = () => {
 
-  const navig=useNavigate();
-  function navigate(){
-    navig('/contact');
+  const navigate = useNavigate();
+
+  function handleLinkClick(path) {
+    // Use the navigate function to navigate to the specified path
+    navigate(path);
   }
   return (
     <footer className="footer-grid">
@@ -19,22 +22,22 @@ const Footer = () => {
       <div className="links">
         <ul className="lista">
           <li>
-            <a onClick={navigate}>
+            <a onClick={()=>handleLinkClick("/jacht")}>
               OPSKRBA JAHTI
             </a>
           </li>
           <li>
-            <a href="https://vinumart.hr/hr/prezentacija-i-degustacija-vina.html">
+          <a onClick={()=>handleLinkClick("/distribution")}>
               USLUGA PREZENTACIJA I DEGUSTACIJE
             </a>
           </li>
           <li>
-            <a href="https://vinumart.hr/hr/edukacija-osoblja.html">
+          <a onClick={()=>handleLinkClick("/distribution")}>
               EDUKACIJE OSOBLJA
             </a>
           </li>
           <li>
-            <a href="https://vinumart.hr/hr/izrada-vinske-karte.html">
+          <a onClick={()=>handleLinkClick("/vineCard")}>
               IZRADA VINSKE KARTE
             </a>
           </li>

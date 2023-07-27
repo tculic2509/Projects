@@ -20,7 +20,7 @@ body {
 .opis3 {
     grid-column: span 4;
 }
-.bd {
+.bdy {
     background-color: #0c1d32;
     padding: 400px;
 }

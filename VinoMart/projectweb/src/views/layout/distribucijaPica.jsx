@@ -4,7 +4,7 @@ import VinskiKutak from "../../components/vineCorner/vinskiKutak";
 import logo from "../../pictures/logo-footer.svg";
 import "../../styles/jacht.css";
 
-function Jacht() {
+function VinskaKarta() {
   useEffect(() => {
     const handleScroll = () => {
       const navLogo = document.querySelector(".navLogo");
@@ -36,28 +36,29 @@ function Jacht() {
           </div>
         </a>
       </div>
-      <div className="container grid flex">
+      <div className="grid">
         <img
-          src="https://vinumart.hr/hr/assets/img/jahte.jpg"
+          src="https://vinumart.hr/hr/assets/img/distribucija-vina.jpg"
           className="jacht"
           alt="jahta"
         ></img>
-        <h1 className="naslovJ">Opskrba jahti</h1>
+        <div className="bg">
+          <div className="row">
+            <p className="subtitle-sm">THE EXPERIENCE</p>
+          </div>
+          <div className="row2">
+            <h1 className="naslov">Usluge<br></br> prezentacije i <br></br>degustacije</h1>
+          </div>
+        </div>
       </div>
-      <div className="bod">
+      <div className="bd">
         <p className="tekst">
-          Nakon zavidnog iskustva u opskrbi velikog broja ugostiteljskih
-          objekata na jadranskoj obali te edukacije njihovog kadra svoje smo
-          široko znanje i prvoklasnu uslugu odlučili ponuditi i specifičnoj
-          grani turizma- onoj Nautičkoj<br></br><br></br>
-          Posljednjih nekoliko godina nautički turizam poprima sve veću pažnju
-          javnosti i turista i svakako je jedan je od perspektivnijih oblika
-          hrvatskog turizma. Širenjem našeg asortimana kao i povećani obujam
-          poslovanja potpuno je prirodno usmjerio naš fokus i na taj segment
-          poslovanja.<br></br><br></br>
-          Sa sjedištem u Splitu, svojom pouzdanom kopnenom posadom želja nam je
-          osigurati da svaki aspekt boravka gosta na brodu bude što je moguće
-          lakši, radosniji i udobniji.
+          Sretni i zadovoljni kupci od samog su početka u fokusu našeg
+          poslovanja. Upravo su nam oni najveća motivacija u definiranju naših
+          usluga i kreiranju sada već bogate ponude vina i alkoholnih pića. U
+          velikoj većini riječ je barovima, restoranima i hotelima ali i svim
+          onim koji traže vrhunsku uslugu, posebna vina, prihvatljive cijene s
+          dostavom na kućna vrata.
         </p>
         <hr></hr>
       </div>
@@ -67,4 +68,4 @@ function Jacht() {
   );
 }
 
-export default Jacht;
+export default VinskaKarta;

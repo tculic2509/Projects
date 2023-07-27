@@ -41,7 +41,7 @@ const Header = () => {
             <p className="subtitle-sm">VINUM ART 2018 - VAŠ HORECA PARTNER</p>
           </div>
           <div className="row">
-            <h1>
+            <h1 className="headNaslov">
               Distribucija vina i <br></br> alkoholnih pića,<br></br> Opskrba
               jahti
             </h1>
