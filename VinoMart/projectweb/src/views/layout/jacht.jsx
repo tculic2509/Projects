@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Footer from "../../components/layout/footer";
 import VinskiKutak from "../../components/vineCorner/vinskiKutak";
 import logo from "../../pictures/logo-footer.svg";
-import "../../styles/jacht.css";
+import {useNavigate} from "react-router-dom";
 
 function Jacht() {
   useEffect(() => {
@@ -23,11 +23,16 @@ function Jacht() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+  const navigate = useNavigate();
 
+  function handleLinkClick(path) {
+    // Use the navigate function to navigate to the specified path
+    navigate(path);
+  }
   return (
     <div className="header">
       <div className="navLogo">
-        <a href="#">
+        <a onClick={()=>handleLinkClick("/")}>
           <img src={logo} alt="logo" className="logo" />
         </a>
         <a href="#" title="Menu">
@@ -42,7 +47,7 @@ function Jacht() {
           className="jacht"
           alt="jahta"
         ></img>
-        <h1 className="naslovJ">Opskrba jahti</h1>
+        <h1 className="naslov h1">Opskrba jahti</h1>
       </div>
       <div className="bod">
         <p className="tekst">

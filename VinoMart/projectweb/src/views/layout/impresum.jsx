@@ -1,6 +1,4 @@
 import React, { useEffect } from "react";
-import "../../styles/footer.css";
-import "../../styles/pravilaUvjeti.css";
 import Footer from "../../components/layout/footer";
 import logo from "../../pictures/logo-footer.svg";
 

@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Footer from "../../components/layout/footer";
 import VinskiKutak from "../../components/vineCorner/vinskiKutak";
 import logo from "../../pictures/logo-footer.svg";
-import "../../styles/jacht.css";
+
 
 
 function VinskaKarta() {
@@ -37,7 +37,7 @@ function VinskaKarta() {
           </div>
         </a>
       </div>
-      <div className="grid">
+      <div className="grid body">
         <img
           src="https://vinumart.hr/hr/assets/img/vina-c%CC%8Cas%CC%8Ce.jpg"
           className="jacht"

@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-import "../../styles/vineCorner.css";
 
 // Import Swiper React components
 

@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import Footer from "../../components/layout/footer";
 import VinskiKutak from "../../components/vineCorner/vinskiKutak";
 import logo from "../../pictures/logo-footer.svg";
-import "../../styles/pravilaUvjeti.css";
 
 function Jacht() {
   useEffect(() => {
@@ -40,7 +39,7 @@ function Jacht() {
         <div className="grid">
           <div className="uvjeti">
             <p className="subtitle-sm">VINUM ART 2018 d.o.o.</p>
-            <h1>Uvjeti korištenja</h1>
+            <h1 className="h1">Uvjeti korištenja</h1>
           </div>
         </div>
       </div>

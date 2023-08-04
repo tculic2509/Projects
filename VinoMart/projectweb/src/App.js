@@ -5,6 +5,9 @@ import HomePage from "./views/layout/home";
 import Jahta from "./views/layout/jacht";
 import VinskaKarta from "./views/layout/vinskaKarta";
 import DistribucijaPica from "./views/layout/distribucijaPica";
+import Privatnost from "./views/layout/privatnost";
+import Impresum from "./views/layout/impresum";
+import Uvjeti from "./views/layout/uvjeti";
 
 import {
   createBrowserRouter,
@@ -19,6 +22,9 @@ const route = createRoutesFromElements(
     <Route path="/distribution" element={<DistribucijaPica />} />
     <Route path="/vineCard" element={<VinskaKarta />} />
     <Route path="/contact" element={<Contact />} />
+    <Route path="/privatnost" element={<Privatnost />} />
+    <Route path="/impresum" element={<Impresum />} />
+    <Route path="/uvjeti" element={<Uvjeti />} />
   </Route>
 );
 const router = createBrowserRouter(route);
