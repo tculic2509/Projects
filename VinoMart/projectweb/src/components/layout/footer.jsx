@@ -22,27 +22,27 @@ const Footer = () => {
       <div className="footer-links">
         <ul className="footer-lista">
           <li>
-            <a onClick={()=>handleLinkClick("/jacht")} className="txt">
+            <a onClick={()=>handleLinkClick("/jacht")} className="txt2">
               OPSKRBA JAHTI
             </a>
           </li>
           <li>
-          <a onClick={()=>handleLinkClick("/distribution")} className="txt">
+          <a onClick={()=>handleLinkClick("/distribution")} className="txt2">
               USLUGA PREZENTACIJA I DEGUSTACIJE
             </a>
           </li>
           <li>
-          <a onClick={()=>handleLinkClick("/distribution")} className="txt">
+          <a onClick={()=>handleLinkClick("/distribution")} className="txt2">
               EDUKACIJE OSOBLJA
             </a>
           </li>
           <li>
-          <a onClick={()=>handleLinkClick("/vineCard")} className="txt">
+          <a onClick={()=>handleLinkClick("/vineCard")} className="txt2">
               IZRADA VINSKE KARTE
             </a>
           </li>
           <li>
-            <a href="https://lumaekskluziv.hr/" className="txt">WEB SHOP</a>
+            <a href="https://lumaekskluziv.hr/" className="txt2">WEB SHOP</a>
           </li>
         </ul>
       </div>
@@ -63,7 +63,7 @@ const Footer = () => {
             <a onClick={()=>handleLinkClick("/impresum")} className="txt">Impresum</a>
           </li>
         </ul>
-        <p className="txt">&copy;2023 All rights reserved.</p>
+        <p className="txt2">&copy;2023 All rights reserved.</p>
       </div>
       <div className="footer-social footer-grid">
         <a href="https://www.facebook.com"><img src={faceLogo} alt="facebook" className="faceLogo"></img></a>

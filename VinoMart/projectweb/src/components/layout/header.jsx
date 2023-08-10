@@ -1,6 +1,8 @@
-import React, { useEffect, useState }  from "react";
+import React, { useEffect, useState } from "react";
 import vino from "../../pictures/wine-and-friends.jpg";
 import logo from "../../pictures/logo-footer.svg";
+import { useNavigate } from "react-router-dom";
+import Logo from "../navbar/logo";
 
 const Header = () => {
   useEffect(() => {
@@ -21,26 +23,23 @@ const Header = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-  const [isOpen, setIsOpen] = useState(false);
+  function toggleOpenText() {
+    const meniDiv = document.querySelector(".meni");
 
-  const toggleOpenText = () => {
-    setIsOpen(!isOpen);
-  };
+    meniDiv.classList.toggle("hovered");
+  }
+  const navigate = useNavigate();
+
+  function handleLinkClick(path) {
+    // Use the navigate function to navigate to the specified path
+    navigate(path);
+  }
   return (
     <header>
       <div className="grid slikaVino">
         <img src={vino} alt="slika vina" className="imageHeader"></img>
-        <div className="navLogo">
-          <a href="#">
-            <img src={logo} alt="logo" className="logo"></img>
-          </a>
-          <a href="#" title="Menu">
-            <div className="meni" onClick={toggleOpenText}>
-              <span>MENU</span>
-              {isOpen && <span className="open-text">Open</span>}
-            </div>
-          </a>
-        </div>
+        
+        <Logo />
         <div className="titleVinum">
           <div className="row">
             <p className="subtitle-sm">VINUM ART 2018 - VAŠ HORECA PARTNER</p>

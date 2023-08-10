@@ -59,7 +59,7 @@ const Body = () => {
           </p>
         </div>
         <h2 className="title-nu">Naše usluge</h2>
-        <div className="grid slideshow">
+        <div className="slideshow">
           <NaseUsluge />
         </div>
         <div className="under-img-txt">

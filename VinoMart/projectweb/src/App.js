@@ -8,6 +8,8 @@ import DistribucijaPica from "./views/layout/distribucijaPica";
 import Privatnost from "./views/layout/privatnost";
 import Impresum from "./views/layout/impresum";
 import Uvjeti from "./views/layout/uvjeti";
+import NavBar from "./components/navbar/navbar";
+import About from "./views/layout/oNama";
 
 import {
   createBrowserRouter,
@@ -25,6 +27,8 @@ const route = createRoutesFromElements(
     <Route path="/privatnost" element={<Privatnost />} />
     <Route path="/impresum" element={<Impresum />} />
     <Route path="/uvjeti" element={<Uvjeti />} />
+    <Route path="/navbar" element={<NavBar />} /> 
+    <Route path="/about" element={<About />} /> 
   </Route>
 );
 const router = createBrowserRouter(route);

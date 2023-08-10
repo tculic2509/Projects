@@ -2,8 +2,7 @@ import React, { useEffect } from "react";
 import Footer from "../../components/layout/footer";
 import VinskiKutak from "../../components/vineCorner/vinskiKutak";
 import logo from "../../pictures/logo-footer.svg";
-
-
+import Logo from "../../components/navbar/logo";
 
 function VinskaKarta() {
   useEffect(() => {
@@ -24,39 +23,36 @@ function VinskaKarta() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-
+  function toggleOpenText() {
+    const meniDiv = document.querySelector('.meni');
+    
+    meniDiv.classList.toggle('hovered');
+  }
   return (
     <div className="header">
-      <div className="navLogo">
-        <a href="#">
-          <img src={logo} alt="logo" className="logo" />
-        </a>
-        <a href="#" title="Menu">
-          <div className="meni">
-            <span>MENU</span>
-          </div>
-        </a>
-      </div>
+      
       <div className="grid body">
-        <img
+      <img
           src="https://vinumart.hr/hr/assets/img/vina-c%CC%8Cas%CC%8Ce.jpg"
-          className="jacht"
+          className="imageHeader"
           alt="jahta"
         ></img>
-        <div className="bg">
+      <Logo />
+        <div className="titleVinum">
           <div className="row">
             <p className="subtitle-sm">THE EXPERIENCE</p>
           </div>
-          <div className="row2">
-            <h1 className="naslov">
+          <div className="row">
+            <h1 className="headerTitle">
               Usluga<br></br> savjetovanja u<br></br> izradi vaše<br></br>
               vinske karte
             </h1>
           </div>
         </div>
       </div>
-      <div className="bd">
-        <p className="tekst">
+      <div className="grid">
+      <div className="under-img-txt under-txt">
+        <p className="tekst2">
           Osmišljavanje vinske karte ili izmjena već postojeće pravi su izazov
           ako niste dobar poznavalac vina i kulture njegovog konzumiranja.
           Vinska karta vrlo je bitan dio komunikacije između restorana i gosta,
@@ -72,7 +68,8 @@ function VinskaKarta() {
           scene garantirano će pomoći da izbjegnete naknadno preslagivanje vaše
           vinska karte i nepotrebno trošenje Vašeg dragocjenog vremena.
         </p>
-        <hr></hr>
+        <hr className="line"></hr>
+        </div>
       </div>
       <VinskiKutak />
       <Footer />
