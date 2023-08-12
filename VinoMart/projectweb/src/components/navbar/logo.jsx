@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import vino from "../../pictures/wine-and-friends.jpg";
+import React, { useEffect } from "react";
 import logo from "../../pictures/logo-footer.svg";
 import { useNavigate } from "react-router-dom";
 

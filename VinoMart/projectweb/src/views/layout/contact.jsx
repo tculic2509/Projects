@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import Footer from "../../components/layout/footer";
 import logo from "../../pictures/logo-footer.svg";
 import { useNavigate } from "react-router-dom";
-import Logo from "../../components/navbar/logo";
 
 const Contact = () => {
   const navig = useNavigate();

@@ -71,7 +71,6 @@ body {
   padding: 30px 30px;
 }
 .navLogo.scrolled {
-  /* Background color after scrolling */
   background-color: #0c1d32;
   width: fit-content;
   z-index: 1060;
@@ -85,8 +84,8 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 150px; /* Adjust width as needed */
-  height: 50px; /* Adjust height as needed */
+  width: 150px; 
+  height: 50px; 
   cursor: pointer;
   transform: translateZ(0) translateY(0);
   transform-style: preserve-3d;
@@ -96,7 +95,7 @@ a {
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  opacity: 0; /* Set initial state of "Open" text */
+  opacity: 0;
   pointer-events: none;
 }
 .meni span {
@@ -119,7 +118,7 @@ a {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   perspective: 1000;
-  opacity: 1; /* Change initial state of "Close" text to visible */
+  opacity: 1; 
   pointer-events: none;
 }
 .meni span:after {
@@ -131,7 +130,7 @@ a {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   perspective: 1000;
-  opacity: 0; /* Set initial state of "Open" text */
+  opacity: 0; 
   pointer-events: none;
 }
 .meni:hover span:before {
@@ -160,13 +159,11 @@ a {
 .close-spanShow {
   display: inline;
 }
-
-/* You can add transitions for smooth animation */
-
-
 .close-spanShow{
   opacity: 1;
 }
+
+
 
 /*navbar*/
 .nav-bg {
@@ -227,6 +224,9 @@ a {
 .navSocial > a {
   margin-left: 20px;
 }
+
+
+
 /*body*/
 .body {
   background-color: #0c1d32;
@@ -246,7 +246,6 @@ a {
   margin-left: 30px;
 }
 .partner.scrolled {
-  /* Background color after scrolling */
   transform: translate3d(0px, -272.012px, 0px);
   transition: 0.6s ease-in;
   margin-top: 80px;
@@ -380,64 +379,11 @@ a {
   z-index: 1060;
   position: relative;
 }
-/* .swiper-slide img::before {
-
-  display: block;
-
-  width: 100%;
-
-  height: 100%;
-
-  object-fit: cover;
-
-  transition: transform 0.4s ease-in;
-
-  transform: translateZ(0) scale(1, 1);
-
-  transform-style: preserve-3d;
-
-} */
-
 .swiper {
   width: 100%;
   height: 600px;
   margin: 20px auto;
 }
-
-/* .append-buttons {
-
-  text-align: center;
-
-  margin-top: 20px;
-
-}
-
-
-
-
-.append-buttons button {
-
-  display: inline-block;
-
-  cursor: pointer;
-
-  border: 1px solid #007aff;
-
-  color: #007aff;
-
-  text-decoration: none;
-
-  padding: 4px 10px;
-
-  border-radius: 4px;
-
-  margin: 0 10px;
-
-  font-size: 13px;
-
-}
-
-*/
 .swiperNaseUsluge {
   flex-shrink: 0;
   width: 100%;
@@ -489,13 +435,18 @@ a {
   z-index: 2;
 }
 
-/*vineCorner*/
 
+
+
+
+
+/*vineCorner*/
 .section {
   background: url(https://vinumart.hr/hr/assets/img/pattern-gray.jpg);
   padding: 70px;
   margin: 50px;
   display: block;
+
 }
 .title {
   color: transparent;
@@ -693,7 +644,7 @@ a {
 .naslov {
   width: max-content;
   margin-left: 200px;
-  grid-column-start: 4; /* Starting column index */
+  grid-column-start: 4; 
   margin-top: 450px;
 }
 .naslovJ {
@@ -870,12 +821,6 @@ form {
 
 
 /*galerija slika*/
-/* .galerija{
-  position: relative;
-  overflow: hidden;
-  background: #fff;
-} */
-
 .galery {
   text-align: center;
 }
@@ -884,19 +829,20 @@ form {
     letter-spacing: 0.74px;
     margin-left: 700px;
     width: max-content;
+    margin-top: 100px;
 }
 
 .parallax-container {
   position: relative;
   height: 100vh;
   margin-left: 500px;
-  margin-top: 300px;
+  margin-top: 400px;
   margin-bottom: 300px;
 }
 
 .parallax-image {
   position: relative;
-  width: 100%; /* Adjust the width to cover the extended content due to parallax effect */
+  width: 100%; 
   height: 100%;
   display: flex;
 }
@@ -918,6 +864,3 @@ form {
 .up{
   padding-top: 200px;
 }
-
-/* Add additional styles as needed */
-

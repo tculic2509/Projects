@@ -30,20 +30,11 @@ function NavBar() {
     navigate(path);
   }
 
-  function toggleOpenText() {
-    const meniDiv = document.querySelector('.meni');
-    
-    meniDiv.classList.toggle('hovered');
-  }
-
   function toggleCloseText() {
     const closeSpan = document.querySelector('.meni .close-spanShow');
     closeSpan.classList.toggle('visible');
   }
   
-  function handleLinkClick(path) {
-    navigate(path);
-  }
   return (
     <div className="body nav-bg">
       

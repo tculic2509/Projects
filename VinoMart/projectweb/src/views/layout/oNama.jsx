@@ -1,9 +1,8 @@
 import React, { useEffect } from "react";
 import Footer from "../../components/layout/footer";
 import VinskiKutak from "../../components/vineCorner/vinskiKutak";
-import logo from "../../pictures/logo-footer.svg";
-import { useNavigate } from "react-router-dom";
 import Logo from "../../components/navbar/logo";
+import Galerija from "../../components/galery/galerijaSlika";
 
 function Jacht() {
   useEffect(() => {
@@ -44,18 +43,6 @@ function Jacht() {
     };
   }, []);
 
-  const navigate = useNavigate();
-
-  function handleLinkClick(path) {
-    // Use the navigate function to navigate to the specified path
-    navigate(path);
-  }
-
-  function toggleOpenText() {
-    const meniDiv = document.querySelector('.meni');
-    
-    meniDiv.classList.toggle('hovered');
-  }
   return (
     <body>
       <div className="grid">
@@ -117,6 +104,7 @@ function Jacht() {
           </div>
         </div>
       </div>
+      <Galerija />
       <VinskiKutak />
       <Footer />
     </body>

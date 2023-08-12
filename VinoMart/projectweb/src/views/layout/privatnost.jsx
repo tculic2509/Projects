@@ -1,8 +1,6 @@
 import React, { useEffect } from "react";
 import Footer from "../../components/layout/footer";
-import VinskiKutak from "../../components/vineCorner/vinskiKutak";
 import logo from "../../pictures/logo-footer.svg";
-import Logo from "../../components/navbar/logo";
 import { useNavigate } from "react-router-dom";
 
 function Jacht() {

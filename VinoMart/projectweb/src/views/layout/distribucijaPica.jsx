@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import Footer from "../../components/layout/footer";
 import VinskiKutak from "../../components/vineCorner/vinskiKutak";
-import logo from "../../pictures/logo-footer.svg";
 import Logo from "../../components/navbar/logo";
+import Galerija from "../../components/galery/galerijaSlika";
 
 function VinskaKarta() {
   useEffect(() => {
@@ -23,11 +23,6 @@ function VinskaKarta() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-  function toggleOpenText() {
-    const meniDiv = document.querySelector(".meni");
-
-    meniDiv.classList.toggle("hovered");
-  }
   return (
     <div className="header">
       <div className="grid">
@@ -61,6 +56,7 @@ function VinskaKarta() {
           <hr className="line"></hr>
         </div>
       </div>
+      <Galerija />
       <VinskiKutak />
       <Footer />
     </div>
