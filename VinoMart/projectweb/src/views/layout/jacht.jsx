@@ -1,9 +1,7 @@
 import React, { useEffect } from "react";
 import Footer from "../../components/layout/footer";
 import VinskiKutak from "../../components/vineCorner/vinskiKutak";
-import logo from "../../pictures/logo-footer.svg";
 import jahta from "../../pictures/jahte.jpg";
-import { useNavigate } from "react-router-dom";
 import Logo from "../../components/navbar/logo";
 import Galerija from "../../components/galery/galerijaSlika";
 
@@ -26,24 +24,12 @@ function Jacht() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-  const navigate = useNavigate();
-
-  function handleLinkClick(path) {
-    // Use the navigate function to navigate to the specified path
-    navigate(path);
-  }
-
-  function toggleOpenText() {
-    const meniDiv = document.querySelector('.meni');
-    
-    meniDiv.classList.toggle('hovered');
-  }
   return (
     <body>
       <div className="grid">
-      <img src={jahta} alt="jahta" className="jahta imageHeader"></img>
+        <img src={jahta} alt="jahta" className="jahta imageHeader"></img>
         <Logo />
-        
+
         <div className="titleVinum row">
           <h1 className="headerTitle">Opskrba jahti</h1>
         </div>
@@ -69,6 +55,7 @@ function Jacht() {
           <hr className="line"></hr>
         </div>
       </div>
+
       <Galerija />
       <VinskiKutak />
       <Footer />

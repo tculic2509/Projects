@@ -18,7 +18,8 @@ export default function App() {
   const [swiperRef, setSwiperRef] = useState(null);
 
   return (
-    <div className="body section">
+    <div className="body">
+    <div className="section">
       <div className="section grid">
         <h1 className="title">Vinski kutak</h1>
 
@@ -96,6 +97,7 @@ export default function App() {
           </div>
         </SwiperSlide>
       </Swiper>
+    </div>
     </div>
   );
 }

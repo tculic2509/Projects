@@ -870,8 +870,54 @@ form {
 
 
 /*galerija slika*/
-.galerija{
+/* .galerija{
   position: relative;
   overflow: hidden;
   background: #fff;
+} */
+
+.galery {
+  text-align: center;
 }
+.galeryNaslov{
+  font: normal 500 100px/110px "the-seasons";
+    letter-spacing: 0.74px;
+    margin-left: 700px;
+    width: max-content;
+}
+
+.parallax-container {
+  position: relative;
+  height: 100vh;
+  margin-left: 500px;
+  margin-top: 300px;
+  margin-bottom: 300px;
+}
+
+.parallax-image {
+  position: relative;
+  width: 100%; /* Adjust the width to cover the extended content due to parallax effect */
+  height: 100%;
+  display: flex;
+}
+
+.images {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  filter: grayscale(0.7);
+}
+.images:hover {
+  filter: grayscale(0);
+}
+.images>a{
+  margin-top: -10px;
+}
+.up{
+  padding-top: 200px;
+}
+
+/* Add additional styles as needed */
+
