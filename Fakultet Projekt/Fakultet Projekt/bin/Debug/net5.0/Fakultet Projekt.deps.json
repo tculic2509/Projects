@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Fakultet Projekt/1.0.0": {
+        "runtime": {
+          "Fakultet Projekt.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Fakultet Projekt/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

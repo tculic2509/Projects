@@ -1,0 +1,48 @@
+C:\Users\Toni\source\repos\Fakultet Projekt\Fakultet Projekt\obj\Debug\net5.0\Fakultet Projekt.csproj.AssemblyReference.cache
+C:\Users\Toni\source\repos\Fakultet Projekt\Fakultet Projekt\obj\Debug\net5.0\Fakultet Projekt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Toni\source\repos\Fakultet Projekt\Fakultet Projekt\obj\Debug\net5.0\Fakultet Projekt.AssemblyInfoInputs.cache
+C:\Users\Toni\source\repos\Fakultet Projekt\Fakultet Projekt\obj\Debug\net5.0\Fakultet Projekt.AssemblyInfo.cs
+C:\Users\Toni\source\repos\Fakultet Projekt\Fakultet Projekt\obj\Debug\net5.0\Fakultet Projekt.csproj.CoreCompileInputs.cache
+C:\Users\Toni\source\repos\Fakultet Projekt\Fakultet Projekt\bin\Debug\net5.0\Fakultet Projekt.exe
+C:\Users\Toni\source\repos\Fakultet Projekt\Fakultet Projekt\bin\Debug\net5.0\Fakultet Projekt.deps.json
+C:\Users\Toni\source\repos\Fakultet Projekt\Fakultet Projekt\bin\Debug\net5.0\Fakultet Projekt.runtimeconfig.json
+C:\Users\Toni\source\repos\Fakultet Projekt\Fakultet Projekt\bin\Debug\net5.0\Fakultet Projekt.runtimeconfig.dev.json
+C:\Users\Toni\source\repos\Fakultet Projekt\Fakultet Projekt\bin\Debug\net5.0\Fakultet Projekt.dll
+C:\Users\Toni\source\repos\Fakultet Projekt\Fakultet Projekt\bin\Debug\net5.0\ref\Fakultet Projekt.dll
+C:\Users\Toni\source\repos\Fakultet Projekt\Fakultet Projekt\bin\Debug\net5.0\Fakultet Projekt.pdb
+C:\Users\Toni\source\repos\Fakultet Projekt\Fakultet Projekt\obj\Debug\net5.0\Fakultet Projekt.dll
+C:\Users\Toni\source\repos\Fakultet Projekt\Fakultet Projekt\obj\Debug\net5.0\ref\Fakultet Projekt.dll
+C:\Users\Toni\source\repos\Fakultet Projekt\Fakultet Projekt\obj\Debug\net5.0\Fakultet Projekt.pdb
+C:\Users\Toni\source\repos\Fakultet Projekt\Fakultet Projekt\obj\Debug\net5.0\Fakultet Projekt.genruntimeconfig.cache
+C:\Users\Toni\Desktop\Fakultet Projekt\Fakultet Projekt\bin\Debug\net5.0\Fakultet Projekt.exe
+C:\Users\Toni\Desktop\Fakultet Projekt\Fakultet Projekt\bin\Debug\net5.0\Fakultet Projekt.deps.json
+C:\Users\Toni\Desktop\Fakultet Projekt\Fakultet Projekt\bin\Debug\net5.0\Fakultet Projekt.runtimeconfig.json
+C:\Users\Toni\Desktop\Fakultet Projekt\Fakultet Projekt\bin\Debug\net5.0\Fakultet Projekt.runtimeconfig.dev.json
+C:\Users\Toni\Desktop\Fakultet Projekt\Fakultet Projekt\bin\Debug\net5.0\Fakultet Projekt.dll
+C:\Users\Toni\Desktop\Fakultet Projekt\Fakultet Projekt\bin\Debug\net5.0\ref\Fakultet Projekt.dll
+C:\Users\Toni\Desktop\Fakultet Projekt\Fakultet Projekt\bin\Debug\net5.0\Fakultet Projekt.pdb
+C:\Users\Toni\Desktop\Fakultet Projekt\Fakultet Projekt\obj\Debug\net5.0\Fakultet Projekt.csproj.AssemblyReference.cache
+C:\Users\Toni\Desktop\Fakultet Projekt\Fakultet Projekt\obj\Debug\net5.0\Fakultet Projekt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Toni\Desktop\Fakultet Projekt\Fakultet Projekt\obj\Debug\net5.0\Fakultet Projekt.AssemblyInfoInputs.cache
+C:\Users\Toni\Desktop\Fakultet Projekt\Fakultet Projekt\obj\Debug\net5.0\Fakultet Projekt.AssemblyInfo.cs
+C:\Users\Toni\Desktop\Fakultet Projekt\Fakultet Projekt\obj\Debug\net5.0\Fakultet Projekt.csproj.CoreCompileInputs.cache
+C:\Users\Toni\Desktop\Fakultet Projekt\Fakultet Projekt\obj\Debug\net5.0\Fakultet Projekt.dll
+C:\Users\Toni\Desktop\Fakultet Projekt\Fakultet Projekt\obj\Debug\net5.0\ref\Fakultet Projekt.dll
+C:\Users\Toni\Desktop\Fakultet Projekt\Fakultet Projekt\obj\Debug\net5.0\Fakultet Projekt.pdb
+C:\Users\Toni\Desktop\Fakultet Projekt\Fakultet Projekt\obj\Debug\net5.0\Fakultet Projekt.genruntimeconfig.cache
+D:\Projekti C#\Fakultet Projekt\Fakultet Projekt\bin\Debug\net5.0\Fakultet Projekt.exe
+D:\Projekti C#\Fakultet Projekt\Fakultet Projekt\bin\Debug\net5.0\Fakultet Projekt.deps.json
+D:\Projekti C#\Fakultet Projekt\Fakultet Projekt\bin\Debug\net5.0\Fakultet Projekt.runtimeconfig.json
+D:\Projekti C#\Fakultet Projekt\Fakultet Projekt\bin\Debug\net5.0\Fakultet Projekt.runtimeconfig.dev.json
+D:\Projekti C#\Fakultet Projekt\Fakultet Projekt\bin\Debug\net5.0\Fakultet Projekt.dll
+D:\Projekti C#\Fakultet Projekt\Fakultet Projekt\bin\Debug\net5.0\Fakultet Projekt.pdb
+D:\Projekti C#\Fakultet Projekt\Fakultet Projekt\obj\Debug\net5.0\Fakultet Projekt.csproj.AssemblyReference.cache
+D:\Projekti C#\Fakultet Projekt\Fakultet Projekt\obj\Debug\net5.0\Fakultet Projekt.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projekti C#\Fakultet Projekt\Fakultet Projekt\obj\Debug\net5.0\Fakultet Projekt.AssemblyInfoInputs.cache
+D:\Projekti C#\Fakultet Projekt\Fakultet Projekt\obj\Debug\net5.0\Fakultet Projekt.AssemblyInfo.cs
+D:\Projekti C#\Fakultet Projekt\Fakultet Projekt\obj\Debug\net5.0\Fakultet Projekt.csproj.CoreCompileInputs.cache
+D:\Projekti C#\Fakultet Projekt\Fakultet Projekt\obj\Debug\net5.0\Fakultet Projekt.dll
+D:\Projekti C#\Fakultet Projekt\Fakultet Projekt\obj\Debug\net5.0\refint\Fakultet Projekt.dll
+D:\Projekti C#\Fakultet Projekt\Fakultet Projekt\obj\Debug\net5.0\Fakultet Projekt.pdb
+D:\Projekti C#\Fakultet Projekt\Fakultet Projekt\obj\Debug\net5.0\Fakultet Projekt.genruntimeconfig.cache
+D:\Projekti C#\Fakultet Projekt\Fakultet Projekt\obj\Debug\net5.0\ref\Fakultet Projekt.dll
