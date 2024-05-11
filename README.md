@@ -3,7 +3,6 @@ Main branch
 - Valframe
 - Meni
 - Milijunaš (Who wants to be millionaire)
-- Kviz (Quiz)
   
 Master branch
 - Sportski klub (Sport club)
