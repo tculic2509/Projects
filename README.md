@@ -2,7 +2,7 @@ Main branch
 - Fakultet Projekt - C#
 - Valframe - Mendix
 - Meni - PHP
-- Milijunaš (Who wants to be millionaire)
+- Milijunaš (Who wants to be millionaire) - C#
   
 Master branch
 - Sportski klub (Sport club) - .NET
