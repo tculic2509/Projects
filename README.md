@@ -1,12 +1,12 @@
 Main branch
-- Fakultet Projekt
-- Valframe
-- Meni
+- Fakultet Projekt - C#
+- Valframe - Mendix
+- Meni - PHP
 - Milijunaš (Who wants to be millionaire)
   
 Master branch
-- Sportski klub (Sport club)
-- Vinomart
+- Sportski klub (Sport club) - .NET
+- Vinomart - React.js
   
 Branch branch
-- Mjenjacnica (Exchange office)
+- Mjenjacnica (Exchange office) - PHP
